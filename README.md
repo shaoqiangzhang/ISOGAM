@@ -30,13 +30,9 @@ Note: torch installed via pip is the CPU version by default. For GPU support, pl
 | Dataset            |  Platform	       | Modalities	      | Download Link |
 |----------- | ----------- |----------- | ----------- |
 | Human Tonsil	    | Visium CytAssist	| RNA+Protein+Image  | https://www.10xgenomics.com/datasets/gene-protein-expression-library-of-human-tonsil-cytassist-ffpe-2-standard |
-
 | Human Tonsil Add-on	|  Visium CytAssist |	RNA+Protein+Image | https://www.10xgenomics.com/datasets/visium-cytassist-gene-and-protein-expression-library-of-human-tonsil-with-add-on-antibodies-h-e-6-5-mm-ffpe-2-standard |
-
 | Human Glioblastoma	| Visium CytAssist |	RNA+Protein+Image | https://www.10xgenomics.com/datasets/gene-and-protein-expression-library-of-human-glioblastoma-cytassist-ffpe-2-standard |
-
 | Human Breast Cancer	| Visium CytAssist |	RNA+Protein+Image  | https://www.10xgenomics.com/datasets/gene-and-protein-expression-library-of-human-breast-cancer-cytassist-ffpe-2-standard |
-
 | Mouse Breast tumor (MMTV-PyMT)	 | Visium (SPOTS)	   | RNA+Protein+Image |   https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353 or https://db.cngb.org/stomics/datasets/STDS0000178 |
 
 Note: This repository only includes a small example dataset (tutorial/tonsil_data/) for quick demonstration. For other datasets, please download them from the links above and follow the pipeline in example.ipynb; simply modify the data paths.
