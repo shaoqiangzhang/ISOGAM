@@ -18,8 +18,8 @@ Dependencies are listed in requirements.txt
 Installation:
 
 ```bash
-conda create -n miso_env python=3.7
-conda activate miso_env
+conda create -n isogam_env python=3.7
+conda activate isogam_env
 pip install -r requirements.txt
 ```
 Note: torch installed via pip is the CPU version by default. For GPU support, please install the CUDA version from the PyTorch official website. The code automatically uses GPU if available, otherwise falls back to CPU.
